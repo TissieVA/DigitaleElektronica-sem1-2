@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+96 true D:/tijsv/Documents/UA sem2/DigitaleElektronica/Sessie8/Opdracht6/Opdracht6.srcs/sources_1/new/Teller.vhd

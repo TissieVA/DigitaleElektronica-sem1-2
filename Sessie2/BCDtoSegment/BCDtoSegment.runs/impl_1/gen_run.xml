@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1551797709">
+  <File Type="PA-TCL" Name="TB_BCDtoSegm.tcl"/>
+  <File Type="BITSTR-BMM" Name="TB_BCDtoSegm_bd.bmm"/>
+  <File Type="REPORTS-TCL" Name="TB_BCDtoSegm_reports.tcl"/>
+  <File Type="OPT-DCP" Name="TB_BCDtoSegm_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="TB_BCDtoSegm.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TB_BCDtoSegm_pwropt.dcp"/>
+  <File Type="BG-BGN" Name="TB_BCDtoSegm.bgn"/>
+  <File Type="PLACE-DCP" Name="TB_BCDtoSegm_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TB_BCDtoSegm_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TB_BCDtoSegm_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="TB_BCDtoSegm.bin"/>
+  <File Type="PHYSOPT-DCP" Name="TB_BCDtoSegm_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="TB_BCDtoSegm.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TB_BCDtoSegm_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TB_BCDtoSegm_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TB_BCDtoSegm_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="TB_BCDtoSegm.ltx"/>
+  <File Type="BITSTR-MMI" Name="TB_BCDtoSegm.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="TB_BCDtoSegm.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="TB_BCDtoSegm_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TB_BCDtoSegm_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TB_BCDtoSegm_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="TB_BCDtoSegm.bit"/>
+  <File Type="BITSTR-RBT" Name="TB_BCDtoSegm.rbt"/>
+  <File Type="BITSTR-NKY" Name="TB_BCDtoSegm.nky"/>
+  <File Type="BG-DRC" Name="TB_BCDtoSegm.drc"/>
+  <File Type="RDI-RDI" Name="TB_BCDtoSegm.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/BCDtoSegm.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TB_BCDtoSegm.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TB_BCDtoSegm"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../digilent-xdc-master/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

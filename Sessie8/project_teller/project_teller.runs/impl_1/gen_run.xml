@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1556272968">
+  <File Type="ROUTE-PWR" Name="Teller_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Teller.tcl"/>
+  <File Type="BITSTR-BMM" Name="Teller_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Teller_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Teller_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Teller_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Teller_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Teller.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Teller_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Teller_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Teller_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Teller_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Teller_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Teller_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Teller_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Teller.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Teller_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Teller.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Teller_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Teller.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Teller_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Teller_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Teller_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Teller_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Teller_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Teller_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Teller.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Teller_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Teller.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Teller_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Teller_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Teller.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Teller_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Teller_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Teller_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Teller_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Teller_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Teller_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Teller_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Teller_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Teller_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Teller_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Teller_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Teller_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Teller.bit"/>
+  <File Type="BITSTR-RBT" Name="Teller.rbt"/>
+  <File Type="BITSTR-NKY" Name="Teller.nky"/>
+  <File Type="BG-DRC" Name="Teller.drc"/>
+  <File Type="RDI-RDI" Name="Teller.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Opdracht6/Opdracht6.srcs/sources_1/new/Teller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Teller"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../digilent-xdc-master/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

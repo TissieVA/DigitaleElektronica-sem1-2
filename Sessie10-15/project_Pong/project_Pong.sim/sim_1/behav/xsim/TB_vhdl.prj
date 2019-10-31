@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Sessie9/Opdracht_VGA/Opdracht_VGA.srcs/sources_1/new/Pixel_Pulser_H.vhd" \
+"../../../../../../Sessie9/Opdracht_VGA/Opdracht_VGA.srcs/sources_1/new/Pixel_Pulser_V.vhd" \
+"../../../../project_Pong.srcs/sources_1/new/Pong.vhd" \
+"../../../../project_Pong.srcs/sim_1/new/TB.vhd" \
+
+# Do not sort compile order
+nosort
