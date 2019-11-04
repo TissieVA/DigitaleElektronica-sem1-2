@@ -2,3 +2,5 @@
 #* text=auto
 *.vhd linguist-detectable=true
 *.v linguist-detectable=false
+*.tcl linguist-detectable=false
+*.c linguist-detectable=false
