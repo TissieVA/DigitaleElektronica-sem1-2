@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1557840259">
   <File Type="PA-TCL" Name="Red_screen.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Red_screen_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Red_screen_reports.tcl"/>
   <File Type="RDS-RDS" Name="Red_screen.vds"/>
   <File Type="RDS-UTIL" Name="Red_screen_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Red_screen_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Red_screen.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Red_screen_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Red_screen_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Pixel_Pulser_H.vhd">

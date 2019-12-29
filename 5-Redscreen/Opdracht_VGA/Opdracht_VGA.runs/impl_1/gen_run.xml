@@ -1,69 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1557840259">
-  <File Type="BITSTR-BMM" Name="Red_screen_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Red_screen_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Red_screen_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR" Name="Red_screen_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Red_screen.tcl"/>
-  <File Type="OPT-TIMING" Name="Red_screen_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="Red_screen_opt.dcp"/>
+  <File Type="BITSTR-BMM" Name="Red_screen_bd.bmm"/>
   <File Type="ROUTE-PWR-SUM" Name="Red_screen_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Red_screen_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Red_screen_opt.dcp"/>
   <File Type="OPT-DRC" Name="Red_screen_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="Red_screen.hwdef"/>
   <File Type="PWROPT-DCP" Name="Red_screen_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="Red_screen_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Red_screen_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="Red_screen_placed.dcp"/>
   <File Type="PLACE-IO" Name="Red_screen_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Red_screen_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Red_screen_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Red_screen_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="Red_screen_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Red_screen_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Red_screen_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="Red_screen.bgn"/>
-  <File Type="PLACE-TIMING" Name="Red_screen_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="Red_screen_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="Red_screen.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Red_screen_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="Red_screen_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Red_screen_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="Red_screen.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="Red_screen_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="Red_screen_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="Red_screen_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="Red_screen_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="Red_screen_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="Red_screen_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Red_screen.ltx"/>
   <File Type="ROUTE-DRC-RPX" Name="Red_screen_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="Red_screen.mmi"/>
+  <File Type="BITSTR-LTX" Name="Red_screen.ltx"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="Red_screen_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Red_screen.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Red_screen_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="Red_screen.sysdef"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Red_screen_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Red_screen.sysdef"/>
   <File Type="ROUTE-PWR-RPX" Name="Red_screen_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="Red_screen_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Red_screen_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="Red_screen_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="Red_screen_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="Red_screen_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Red_screen_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="Red_screen_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="Red_screen_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="Red_screen_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="Red_screen_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Red_screen_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Red_screen_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Red_screen_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Red_screen_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Red_screen_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Red_screen_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Red_screen_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="Red_screen.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Red_screen_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="Red_screen.rbt"/>
   <File Type="BITSTR-NKY" Name="Red_screen.nky"/>
   <File Type="BG-DRC" Name="Red_screen.drc"/>
